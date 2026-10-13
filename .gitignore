@@ -1,0 +1,20 @@
+# Competition data: obtain from DrivenData; do not redistribute.
+Preprocess & EDA/raw_data/*.csv
+
+# Generated preprocessing artifacts and modeling outputs.
+Preprocess & EDA/processed_data/
+Preprocess & EDA/supplementary_processed_data/
+Modeling/results_04_tuning/
+Modeling/figures_04_tuning/
+catboost_info/
+
+# Python and notebook artifacts.
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Local IDE and OS files.
+.vscode/
+.DS_Store
+Thumbs.db
